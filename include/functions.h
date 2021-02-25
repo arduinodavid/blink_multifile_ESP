@@ -9,4 +9,6 @@ void loop();
 void setupPins();
 void flashLED(int8_t flashCount, int delayMS);
 
+extern int pinLED;
+
 #endif  // FUNCTIONS_H
